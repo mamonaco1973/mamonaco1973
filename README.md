@@ -71,12 +71,6 @@ Applications built on each provider's native AI stack — vision, LLM, and agent
 
 ---
 
-## Guides & companion series
-
-Cross-cloud concept series that pair with the YouTube channel: [active-directory-intro](https://github.com/mamonaco1973/active-directory-intro) · [cloud-k8s-intro](https://github.com/mamonaco1973/cloud-k8s-intro) · [cloud-scaling-intro](https://github.com/mamonaco1973/cloud-scaling-intro) · [container-intro](https://github.com/mamonaco1973/container-intro) · [packer-intro](https://github.com/mamonaco1973/packer-intro) · [serverless-endpoints-intro](https://github.com/mamonaco1973/serverless-endpoints-intro)
-
----
-
 ## How I work
 
 - **Infrastructure as code, always** — Terraform/HCL first, console only for spelunking
