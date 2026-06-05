@@ -1,6 +1,6 @@
 # Mike Monaco
 
-**Multi-cloud architect.** 15+ years building production infrastructure — deep AWS roots, with the last two years spent going equally deep on GCP, Azure, and OCI. Everything here is built in public: real, deployable reference architectures, not slideware.
+**Multi-cloud architect.** 10+ years building production infrastructure — deep AWS roots, with the last two years spent going equally deep on GCP, Azure, and OCI. Everything here is built in public: real, deployable reference architectures, not slideware.
 
 📺 I walk through most of these builds on YouTube: [Mike's Cloud Solutions](https://www.youtube.com/@MikesCloudSolutions)
 💼 [LinkedIn](https://www.linkedin.com/in/michael-monaco/) · 📍 North Carolina
@@ -75,7 +75,7 @@ Applications built on each provider's native AI stack — vision, LLM, and agent
 
 - **Infrastructure as code, always** — Terraform/HCL first, console only for spelunking
 - **Reference architectures over snowflakes** — patterns designed once, ported anywhere
-- **AI-accelerated, human-verified** — I use AI tooling to compress build time from weeks to hours; fifteen years of architecture judgment is what makes the output trustworthy
+- **AI-accelerated, human-verified** — I use AI tooling to compress build time from weeks to hours; ten years of architecture judgment is what makes the output trustworthy
 
 ---
 
