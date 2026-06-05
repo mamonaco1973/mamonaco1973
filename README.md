@@ -1,6 +1,6 @@
 # Mike Monaco
 
-**Multi-cloud architect.** 10+ years building production infrastructure — deep AWS roots, with the last two years spent going equally deep on GCP, Azure, and OCI. Everything here is built in public: real, deployable reference architectures, not slideware.
+**Multi-cloud architect.** 15+ years building production infrastructure — deep AWS roots, with the last two years spent going equally deep on GCP, Azure, and OCI. Everything here is built in public: real, deployable reference architectures, not slideware.
 
 📺 I walk through most of these builds on YouTube: [Mike's Cloud Solutions](https://www.youtube.com/@MikesCloudSolutions)
 💼 [LinkedIn](https://www.linkedin.com/in/michael-monaco/) · 📍 North Carolina
@@ -21,39 +21,43 @@ The same core architectures, implemented natively on each major cloud. The desig
 | MySQL | [✅](https://github.com/mamonaco1973/aws-mysql) | [✅](https://github.com/mamonaco1973/gcp-mysql) | [✅](https://github.com/mamonaco1973/azure-mysql) | [✅](https://github.com/mamonaco1973/oci-mysql) |
 | SQL Server | [✅](https://github.com/mamonaco1973/aws-sqlserver) | [✅](https://github.com/mamonaco1973/gcp-sqlserver) | [✅](https://github.com/mamonaco1973/azure-sqlserver) | ✖️ |
 | RStudio cluster | [✅](https://github.com/mamonaco1973/aws-rstudio-cluster) | [✅](https://github.com/mamonaco1973/gcp-rstudio-cluster) | [✅](https://github.com/mamonaco1973/azure-rstudio-cluster) | [✅](https://github.com/mamonaco1973/oci-rstudio-cluster) |
+| RStudio on Kubernetes | [✅](https://github.com/mamonaco1973/aws-rstudio-eks) | [✅](https://github.com/mamonaco1973/gcp-rstudio-gke) | [✅](https://github.com/mamonaco1973/azure-rstudio-aks) | 🚧 |
 
 ### Compute & containers
 
 | Architecture | AWS | GCP | Azure | OCI |
 |---|:---:|:---:|:---:|:---:|
 | Kubernetes | [✅](https://github.com/mamonaco1973/aws-k8s) | [✅](https://github.com/mamonaco1973/gcp-k8s) | [✅](https://github.com/mamonaco1973/azure-k8s) | 🚧 |
-| Autoscaling | [✅](https://github.com/mamonaco1973/aws-autoscaling) | [✅](https://github.com/mamonaco1973/gcp-autoscaling) | [✅](https://github.com/mamonaco1973/azure-autoscaling) | [✅](https://github.com/mamonaco1973/oci-autoscaling) |
+| Autoscaling (ASG / MIG / VMSS / instance pools) | [✅](https://github.com/mamonaco1973/aws-autoscaling) | [✅](https://github.com/mamonaco1973/gcp-mig) | [✅](https://github.com/mamonaco1973/azure-vmss) | [✅](https://github.com/mamonaco1973/oci-instance-pool) |
+| Autoscaled Flask application | [✅](https://github.com/mamonaco1973/aws-flask-asg) | [✅](https://github.com/mamonaco1973/gcp-flask-mig) | [✅](https://github.com/mamonaco1973/azure-flask-vmss) | 🚧 |
+| Containerized Flask application | [✅](https://github.com/mamonaco1973/aws-flask-container) | [✅](https://github.com/mamonaco1973/gcp-flask-container) | [✅](https://github.com/mamonaco1973/azure-flask-container) | 🚧 |
 | Image pipelines (Packer) | [✅](https://github.com/mamonaco1973/aws-packer) | [✅](https://github.com/mamonaco1973/gcp-packer) | [✅](https://github.com/mamonaco1973/azure-packer) | [✅](https://github.com/mamonaco1973/oci-packer) |
 
 ### Identity & end-user computing
 
 | Architecture | AWS | GCP | Azure | OCI |
 |---|:---:|:---:|:---:|:---:|
-| Active Directory | [✅](https://github.com/mamonaco1973/aws-active-directory) | [✅](https://github.com/mamonaco1973/gcp-active-directory) | [✅](https://github.com/mamonaco1973/azure-active-directory) | [✅](https://github.com/mamonaco1973/oci-active-directory) |
+| Managed directory services | [✅](https://github.com/mamonaco1973/aws-active-directory) | [✅](https://github.com/mamonaco1973/gcp-directory) | [✅](https://github.com/mamonaco1973/azure-directory) | [✅](https://github.com/mamonaco1973/oci-managed-ad) |
 | Minimal AD (lab-scale) | [✅](https://github.com/mamonaco1973/aws-mini-ad) | [✅](https://github.com/mamonaco1973/gcp-mini-ad) | [✅](https://github.com/mamonaco1973/azure-mini-ad) | [✅](https://github.com/mamonaco1973/oci-mini-ad) |
-| Virtual desktops | [✅](https://github.com/mamonaco1973/aws-workspaces) | ✖️ | [✅](https://github.com/mamonaco1973/azure-virtual-desktop) | ✖️ |
-| App auth (managed identity / OIDC) | [✅](https://github.com/mamonaco1973/aws-cognito-app) | [✅](https://github.com/mamonaco1973/gcp-cognito-app) | [✅](https://github.com/mamonaco1973/azure-cognito-app) | 🚧 |
+| Managed virtual desktops | [✅](https://github.com/mamonaco1973/aws-workspaces) | ✖️ | [✅](https://github.com/mamonaco1973/azure-virtual-desktops) | ✖️ |
+| Linux remote desktops (xRDP) | [✅](https://github.com/mamonaco1973/aws-xubuntu-xrdp) | [✅](https://github.com/mamonaco1973/gcp-xubuntu-xrdp) | [✅](https://github.com/mamonaco1973/azure-xubuntu-xrdp) | [✅](https://github.com/mamonaco1973/oci-xubuntu-xrdp) |
+| App auth (Cognito / Identity Platform / Entra) | [✅](https://github.com/mamonaco1973/aws-cognito-app) | [✅](https://github.com/mamonaco1973/gcp-identity-app) | [✅](https://github.com/mamonaco1973/azure-entra-app) | 🚧 |
 
 ### Networking & storage
 
 | Architecture | AWS | GCP | Azure | OCI |
 |---|:---:|:---:|:---:|:---:|
-| Hub-and-spoke networking | [✅](https://github.com/mamonaco1973/aws-transit-gateway) | [✅](https://github.com/mamonaco1973/gcp-transit-gateway) | [✅](https://github.com/mamonaco1973/azure-transit-gateway) | 🚧 |
-| Shared file systems | [✅](https://github.com/mamonaco1973/aws-efs) | [✅](https://github.com/mamonaco1973/gcp-efs) | [✅](https://github.com/mamonaco1973/azure-efs) | [✅](https://github.com/mamonaco1973/oci-efs) |
-| Data migration | [✅](https://github.com/mamonaco1973/aws-datasync) | 🚧 | 🚧 | 🚧 |
+| Hub-and-spoke networking | [✅](https://github.com/mamonaco1973/aws-transit-gateway) | [✅](https://github.com/mamonaco1973/gcp-mesh) | [✅](https://github.com/mamonaco1973/azure-wlan) | 🚧 |
+| Shared file systems (EFS / Filestore / Files / FSS) | [✅](https://github.com/mamonaco1973/aws-efs) | [✅](https://github.com/mamonaco1973/gcp-filestore) | [✅](https://github.com/mamonaco1973/azure-nfs-files) | [✅](https://github.com/mamonaco1973/oci-fss) |
+| Data migration | [✅](https://github.com/mamonaco1973/aws-data-sync) | 🚧 | 🚧 | 🚧 |
 
 ### Serverless
 
 | Architecture | AWS | GCP | Azure | OCI |
 |---|:---:|:---:|:---:|:---:|
-| Serverless CRUD API | [✅](https://github.com/mamonaco1973/aws-serverless-crud) | [✅](https://github.com/mamonaco1973/gcp-serverless-crud) | [✅](https://github.com/mamonaco1973/azure-serverless-crud) | 🚧 |
+| Serverless CRUD API | [✅](https://github.com/mamonaco1973/aws-crud-example) | [✅](https://github.com/mamonaco1973/gcp-crud-example) | [✅](https://github.com/mamonaco1973/azure-crud-example) | 🚧 |
 | Serverless MCP service | [✅](https://github.com/mamonaco1973/aws-serverless-mcp) | [✅](https://github.com/mamonaco1973/gcp-serverless-mcp) | [✅](https://github.com/mamonaco1973/azure-serverless-mcp) | 🚧 |
-| Queue-driven workers | [✅](https://github.com/mamonaco1973/aws-sqs-keygen) | [✅](https://github.com/mamonaco1973/gcp-sqs-keygen) | [✅](https://github.com/mamonaco1973/azure-sqs-keygen) | 🚧 |
+| Queue-driven workers (SQS / Pub/Sub / Service Bus) | [✅](https://github.com/mamonaco1973/aws-sqs-keygen) | [✅](https://github.com/mamonaco1973/gcp-pubsub-keygen) | [✅](https://github.com/mamonaco1973/azure-sb-keygen) | 🚧 |
 
 ### AI services
 
@@ -67,9 +71,9 @@ Applications built on each provider's native AI stack — vision, LLM, and agent
 
 ---
 
-## Builds for fun
+## Guides & companion series
 
-Not reference architectures — just things worth building: [aws-xubuntu-xrdp](https://github.com/mamonaco1973/aws-xubuntu-xrdp)
+Cross-cloud concept series that pair with the YouTube channel: [active-directory-intro](https://github.com/mamonaco1973/active-directory-intro) · [cloud-k8s-intro](https://github.com/mamonaco1973/cloud-k8s-intro) · [cloud-scaling-intro](https://github.com/mamonaco1973/cloud-scaling-intro) · [container-intro](https://github.com/mamonaco1973/container-intro) · [packer-intro](https://github.com/mamonaco1973/packer-intro) · [serverless-endpoints-intro](https://github.com/mamonaco1973/serverless-endpoints-intro)
 
 ---
 
