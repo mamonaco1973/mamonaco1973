@@ -2,6 +2,8 @@
 
 **Multi-cloud architect.** 10+ years building production infrastructure — deep AWS roots, with the last two years spent going equally deep on GCP, Azure, and OCI. Everything here is built in public: real, deployable reference architectures, not slideware.
 
+> **[Ask Mike](https://askmike.mikes-cloud-solutions.com)** — AI assistant trained on Mike's background, projects, and cloud portfolio. Ask about any architecture, compare patterns across providers, or ask interview questions.
+
 📺 I walk through most of these builds on YouTube: [Mike's Cloud Solutions](https://www.youtube.com/@MikesCloudSolutions)
 💼 [LinkedIn](https://www.linkedin.com/in/michael-monaco/) · 📍 North Carolina
 
